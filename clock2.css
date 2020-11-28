@@ -1,0 +1,37 @@
+#MyClockDisplay { 
+    color: white;
+    font-style: bold;
+    font-size: 175px; 
+    width: 900px; 
+    margin: 200px; 
+    text-align: center; 
+    border: 2px solid black; 
+    border-radius: 20px; 
+    background-image: url("http://getwallpapers.com/wallpaper/full/2/e/3/645242.jpg");
+} 
+ body {
+     background-color: aqua;
+ }
+ #mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
